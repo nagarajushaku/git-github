@@ -10,7 +10,7 @@ describe("login functionality", function() {
        element(by.buttonText("Sign In")).click();
        browser.driver.sleep(50000);
        });
-    it("ddsdsdsd",function()
+    it("nagaraju edited  -       --- - - -- - --ddsdsdsd",function()
     {
        element(by.xpath('//*[@id="userId70"]')).click();
        
