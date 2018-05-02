@@ -1,4 +1,4 @@
-describe("login functionality", function() {
+ describe("login functionality", function() {
     //browser.ignoreSynchronization = true;
      it('user info', function() {
          browser.get('https://chatapp.aadhya-analytics.com:4201');
@@ -10,7 +10,7 @@ describe("login functionality", function() {
        element(by.buttonText("Sign In")).click();
        browser.driver.sleep(50000);
        });
-    it("nagaraju edited  -       --- - - -- - --ddsdsdsd",function()
+    it("nagaraju edited  -    2nd   --- - - -- - --ddsdsdsd",function()
     {
        element(by.xpath('//*[@id="userId70"]')).click();
        
