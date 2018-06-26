@@ -1,0 +1,21 @@
+protractor: {
+        options: {
+            keepAlive: true,
+            singleRun: false,
+            configFile: "test/protractor.conf1.js"
+        },
+        run_chrome: {
+            options: {
+                args: {
+                    browser: "chrome"
+                }
+            }
+        },
+        run_firefox: {
+            options: {
+                args: {
+                    browser: "firefox"
+                }
+            }
+        }
+    },
